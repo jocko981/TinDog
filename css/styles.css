@@ -1,0 +1,228 @@
+
+
+#title {
+	background-color: #ff4c68;
+	color: #fff;
+	
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+} 
+
+#heading {
+	
+	font-weight: 900;
+	 
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+
+.nav-container-fluid {
+	padding: 1% 15% 1%;
+}
+
+.container-fluid {
+	padding: 9% 15% 9%;
+}
+
+.navbar-brand {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-size: 2.5rem;
+}
+
+.tindog-img {
+	transform: rotate(25deg);
+	width: 950% ;
+	left: 3rem;
+	position: absolute;
+	
+	
+}
+
+/* Nav Bar */
+
+.navbar {
+	padding: 0;
+}
+.nav-item {
+	padding: 0 1rem;
+}
+
+.nav-link {
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+
+
+/* Download Buttons */
+
+.download-btn {
+	margin: 3% 1rem 3% 0;
+}
+
+
+.btn {
+	
+	font-weight: 600;
+}
+
+
+/* EASY to Use Section */
+
+.col-easy-to-use {
+	text-align: center;
+	padding: 6%;
+}
+
+.icons-easy-to-use {
+	color: #ef8172;
+	font-size: 4rem;
+	margin: 20px;
+}
+
+.heading-easy-to-use {
+	font-size: 1.5rem;
+	font-weight: 800;
+}
+
+.p-easy-to-use {
+	color: #8f8f8f;
+	font-size: 1rem;
+}
+
+#features {
+	padding: 6% 15% 6%;
+	background-color: #fff;
+	position: relative;
+	
+}
+
+
+.icons-easy-to-use:hover {
+	color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+	background-color: #ef8172;
+	
+	text-align: center;
+	color: #fff;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+.testimonials-img {
+	margin: 4% 4% 4%;
+	border-radius: 50%;
+	width:9rem;
+}
+.testimonial-image {
+	margin: 4% 4% 4%;
+	border-radius: 50%;
+	width: 9rem;
+}
+.carousel-item {
+	padding: 8% 15%;
+}
+
+
+#press {
+	background-color: #ef8172;
+	padding: 0% 15% 3%;
+	text-align: center;
+}
+
+.press-logo-img {
+	width: 12rem;
+	margin: 1rem 1rem 2rem;
+}
+
+/* Pricing Section */
+/* Card */
+
+#pricing {
+	padding: 6rem;
+	text-align: center;
+}
+
+h3 {
+	font-weight: ;
+}
+.pricing-col {
+	padding: 4% 2%;
+}
+
+.pricing-p {
+	color: #8f8f8f;
+	font-size: 1rem;
+}
+
+.card-p {
+	color: #8f8f8f;
+	font-size: 1rem;
+}
+
+
+
+@media (max-width: 990px) {
+	
+
+	.tindog-img {
+		transform: rotate(0);
+		position: relative;
+		width: 70% ;
+		left: 33%;
+	}
+
+	#title {
+		text-align: center;
+	}
+
+	#footer {
+	text-align: center;
+	padding: 1% 0% 1%;
+    }
+
+
+
+}
+
+
+/* Footer section */ 
+
+
+#cta {
+	background-color: #ff4c68;
+	color: #fff;
+	text-align: center;
+	padding: 12% 15% 12%;
+}
+
+.cta-h3 {
+	font-size: 3rem;
+	line-height: 1.5;
+	font-weight: 900;
+}
+
+.download-btn-cta {
+	margin: 3% 1rem 3%;
+}
+
+#footer {
+	text-align: center;
+	padding: 0% 0% 1%;
+}
+
+.social-icons {
+	margin: 2% 2% 3%;
+}
