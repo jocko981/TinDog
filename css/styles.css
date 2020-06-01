@@ -1,0 +1,224 @@
+
+
+#title {
+	background-color: #ff4c68;
+	color: #fff;
+	text-align: left;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+} 
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 900;
+}
+
+p {
+	color: #8f8f8f;
+	font-size: 1rem;
+}
+
+
+
+/* Headings */
+.big-heading {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+.section-heading {
+	font-weight: 700;
+	font-size: 3rem;
+	line-height: 1.5; 
+}
+
+
+/* Nav Bar */
+
+.nav-container {
+	padding: 1% 15% 1%;
+}
+
+
+.navbar-brand {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-size: 2.5rem;
+}
+
+.navbar {
+	padding: 0;
+}
+
+.nav-item {
+	padding: 0 1rem;
+}
+
+.nav-link {
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+ /*-------*/
+
+.container-fluid {
+	padding: 9% 15%;
+}
+
+
+.tindog-img {
+	transform: rotate(25deg);
+	width: 950% ;
+	left: 3rem;
+	position: absolute;	
+}
+
+
+/* Download Buttons */
+
+.download-btn {
+	margin: 3% 1rem 3% 0;
+}
+
+.btn {
+	font-weight: 600;
+}
+
+
+/* Features Section */
+
+#features {
+	background-color: #fff;
+	position: relative;
+	padding: 6% 15%;
+}
+
+
+.features-col {
+	padding: 6%;
+}
+
+.features-icon {
+	color: #ef8172;
+	font-size: 4rem;
+	margin: 20px;
+}
+
+.features-title {
+	font-size: 1.5rem;
+	font-weight: 800;
+}
+
+.features-icon:hover {
+	color: #ff4c68;
+}
+
+
+
+/* Testimonials */
+
+#testimonials {
+	background-color: #ef8172;
+	color: #fff;
+}
+
+
+.testimonial-text {
+	font-weight: 700;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+.testimonials-img {
+	margin: 4% 4% 4%;
+	border-radius: 50%;
+	width: 9rem;
+}
+
+.testimonial-image {
+	margin: 4% 4% 4%;
+	border-radius: 50%;
+	width: 9rem;
+}
+
+
+#press {
+	background-color: #ef8172;
+	padding: 0% 15% 3%;
+}
+
+.press-logo-img {
+	width: 15rem;
+	margin: 1rem 1rem 2rem;
+}
+
+/* Pricing Section */
+/* Card */
+
+#pricing {
+	padding: 6rem;
+}
+
+.price-text {
+ 	line-height: 1.5;
+ 	font-size: 3rem;
+ }
+
+.pricing-col {
+	padding: 4% 2%;
+}
+
+
+
+
+@media (max-width: 990px) {
+	
+
+	.tindog-img {
+		transform: rotate(0);
+		position: relative;
+		width: 70% ;
+		left: 33%;
+	}
+
+	#title {
+		text-align: center;
+	}
+
+	#footer {
+	text-align: center;
+	padding: 1% 0% 1%;
+    }
+
+
+
+}
+
+
+/* Footer section */ 
+
+
+#cta {
+	background-color: #ff4c68;
+	color: #fff;
+	padding: 12% 15%;
+}
+
+
+.download-btn-cta {
+	margin: 3% 1rem 3%;
+}
+
+#footer {
+	padding: 0% 0% 1%;
+}
+
+.social-icons {
+	margin: 2% 2% 3%;
+}
+
+.social-icons:hover {
+	color: #ff4c68;
+}
