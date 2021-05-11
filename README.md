@@ -1,2 +1,4 @@
 # TinDog
-My very First Html+CSS Site - TinDog Vol1
+Check it out Live at: https://jocko981.github.io/TinDog/
+
+My very First Site
